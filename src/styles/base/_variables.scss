@@ -1,0 +1,21 @@
+// media queries
+@mixin whenLarge() {
+    @media only screen and (min-width: 960px) {
+        @content;
+    }
+}
+@mixin whenMedium() {
+    @media only screen and (min-width: 600px) {
+        @content;
+    }
+}
+
+// colors
+$color-text-primary: #dce2e9;
+$color-text-secondary: #dce2e9;
+$color-text-tertiary: #808894;
+$color-text-body: #bbc0c6;
+
+
+$font-header: 2.7rem;
+$font-header-sm: 2.3rem;
