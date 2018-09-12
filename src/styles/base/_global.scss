@@ -11,8 +11,11 @@ body {
   font-size: 19px;
   font-size: 1.9rem;
   line-height: 1.6;
-  letter-spacing: 1px;
+  letter-spacing: .7px;
   font-weight: 400;
+  background: $color-bg;
+  font-family: $font-sans;
 }
 a { text-decoration: none; }
 li { list-style: none }
+h1, h2, h3 { font-family: $font-serif; }

@@ -1,0 +1,56 @@
+.Hero {
+  background-image: linear-gradient(to right top, #120236, #1c053c, #270541, #330346, #3f004a);
+  background-size: 200% 200%;
+  animation: movingGradient 20s ease infinite;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  a { color: $color-text-secondary; }
+
+  &__nav {
+    position: absolute;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul { display: flex; }
+    li {
+      margin-left: 40px;
+      a { font-size: 18px; }
+    }
+
+  }
+  &__logo {
+    font-size: 22px;
+    font-family: $font-serif;
+    line-height: 1;
+  }
+
+  &__text {
+    max-width: 600px;
+    text-align: center;
+    h1 {
+      color: $color-purple-l;
+      margin-bottom: 20px;
+    }
+    p { color: $color-text-tertiary; }
+
+    a {
+      background: $color-bg;
+      color: $color-purple;
+      padding: 15px 25px;
+      border-radius: 40px;
+      display: inline-block;
+      margin-top: 40px;
+      transition: all .3s;
+      &:hover { background: $color-purple-l; }
+    }
+  }
+}

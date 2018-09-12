@@ -19,14 +19,14 @@ module.exports = {
         // icon: '', // This path is relative to the root of the site.
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-web-font-loader',
-    //   options: {
-    //     google: {
-    //       families: []
-    //     }
-    //   }
-    // },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Nunito:300', 'Merriweather:700']
+        }
+      }
+    },
     { resolve: 'gatsby-plugin-sitemap' },
     { resolve: 'gatsby-plugin-no-sourcemaps' },
     'gatsby-plugin-offline'
