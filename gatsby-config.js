@@ -23,7 +23,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Nunito:300', 'Merriweather:700']
+          families: ['Nunito:300,400', 'Merriweather:700']
         }
       }
     },

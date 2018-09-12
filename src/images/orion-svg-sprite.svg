@@ -1,0 +1,115 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="money-box-1">
+    <title>Money Box</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path data-name="layer3"
+    d="M60.3 37a6.8 6.8 0 0 1-3-1c-.4-.5-1.6-4.7-3.8-8a11.7 11.7 0 0 1 4.1-5.2c-2.8-1.4-5.7-2.3-11.4-1.6a29.3 29.3 0 0 0-6.3-1.2 10.1 10.1 0 0 1-5.6 2.1 8 8 0 0 1-5.8-2.5 21 21 0 0 0-7.1 2.1c-7.9 4.2-9.2 11-9.2 16.3s2.4 13.1 10.9 20h7.4v-4l8.7.5a22.8 22.8 0 0 0 2.3 3.5h7v-6a49.5 49.5 0 0 0 5.9-5c2.9.3 5.8-2 6.9-8.7 0-1-.5-1.3-1-1.3z"
+    fill="#efbdd2"></path>
+    <circle data-name="layer2" cx="34.5" cy="14" r="8" fill="#fc6"></circle>
+    <circle data-name="layer1" cx="48.5" cy="34" r="1" fill="#7b8baf"></circle>
+    <path d="M24.5 24l3.7 1.1a20.1 20.1 0 0 1 12.7-.1 17.7 17.7 0 0 0 2.8-4.5 17.8 17.8 0 0 0-3.9-.5 10.1 10.1 0 0 1-5.6 2.1 8 8 0 0 1-5.8-2.5 21 21 0 0 0-7.1 2.1c-7.9 4.2-9.2 11-9.2 16.3S14.5 51 23 58h2c-1.7-3-6.4-12.5-6.4-20a19.1 19.1 0 0 1 5.9-14zm17 34h7v-6a49.5 49.5 0 0 0 5.9-5c2.5.2 5.1-1.5 6.5-6.5-1.8 1.5-4.8 3.5-7.4 3.5-3 3-7 9-23 10l8.7.5a22.8 22.8 0 0 0 2.3 3.5z"
+    fill="#000064" opacity=".15"></path>
+    <path data-name="stroke" d="M28.8 19.5a21.1 21.1 0 0 0-7.1 2.2c-7.9 4.2-9.2 11-9.2 16.3s2.3 13.1 10.8 20h7.3v-4l8.9.5a20.1 20.1 0 0 0 2.3 3.5h6.7v-6a47.9 47.9 0 0 0 6-5c2.9.3 5.9-2 7-8.7 0-1-.5-1.3-1-1.3a6.8 6.8 0 0 1-3-1c-.4-.5-1.6-4.7-3.8-8a11.7 11.7 0 0 1 4.1-5.2c-2.8-1.4-5.7-2.4-11.4-1.8-1.5-.3-4-.9-6.4-1.3"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2"></path>
+    <circle data-name="stroke" cx="34.5" cy="14" r="8" fill="none"
+    stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+    <path data-name="stroke" d="M12.5 38c-2.9-.3-10-1.4-10 2s1.9 3.4 3.8 2.6 4.3-5.5-3.8-8.6m25.7-8.9a20.1 20.1 0 0 1 12.7-.1"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2"></path>
+    <circle data-name="stroke" cx="48.5" cy="34" r="1" fill="none"
+    stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="watch-1">
+    <title>Watch</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 11a20.957 20.957 0 0 1 16.2 7.635L43 2H21l-5.2 16.635A20.957 20.957 0 0 1 32 11z"
+    fill="#00d2f6"></path>
+    <path data-name="opacity" fill="#fff" opacity=".2" d="M21 2l-.938 3h23.875L43 2H21z"></path>
+    <circle data-name="layer3" cx="32" cy="32" r="21" fill="#e1f4f3"></circle>
+    <path data-name="opacity" d="M34 51a20.978 20.978 0 0 1-15.8-34.8 20.982 20.982 0 1 0 29.6 29.6A20.9 20.9 0 0 1 34 51z"
+    fill="#000064" opacity=".14"></path>
+    <path data-name="opacity" d="M32 13a18.953 18.953 0 0 0-14.843 7.157 18.986 18.986 0 0 1 26.686 26.686A18.99 18.99 0 0 0 32 13z"
+    fill="#fff" opacity=".5"></path>
+    <path data-name="opacity" d="M32.163 38.79l-7.449-6.259a2 2 0 0 1 2.572-3.062l4.625 3.886 7.666-7.76a2 2 0 0 1 2.846 2.811z"
+    fill="#000064" opacity=".15"></path>
+    <path data-name="layer2" d="M32 53a20.955 20.955 0 0 1-16.179-7.614L21 61.958h22l5.179-16.572A20.955 20.955 0 0 1 32 53z"
+    fill="#00d2f6"></path>
+    <path data-name="opacity" d="M47.474 47.642l.7-2.256a21 21 0 0 1-32.357 0l2.525 8.08a20.99 20.99 0 0 0 29.127-5.825z"
+    fill="#000064" opacity=".16"></path>
+    <path data-name="layer1" d="M56 28h-3.391a20.647 20.647 0 0 1 0 8H56a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1z"
+    fill="#6e7da9"></path>
+    <path data-name="stroke" fill="none" stroke="#2e4369" stroke-linecap="round"
+    stroke-miterlimit="10" stroke-width="2" d="M15.802 18.635L21 2h22l5.198 16.634M15.823 45.391L21 61.958h22l5.177-16.567M52.619 28H56a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-3.381M24 27l8.037 7.073L43 23"
+    stroke-linejoin="round"></path>
+    <circle data-name="stroke" cx="32" cy="32" r="21" fill="none" stroke="#2e4369"
+    stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="world-map-1">
+    <title>World Map</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <path data-name="layer3"
+    d="M53.9 28.4C52.3 30.6 51 32 51 32s-9.3-10.2-10-19a26 26 0 1 0 12.9 15.4z"
+    fill="#87d3ff"></path>
+    <path data-name="opacity" d="M34 58a26 26 0 0 1-18.6-44.2 26 26 0 1 0 32.2 40.4A25.9 25.9 0 0 1 34 58z"
+    fill="#000032" opacity=".2"></path>
+    <path data-name="layer2" d="M38.5 30.2a10.3 10.3 0 0 0 7.5-3.1l.7-.7a40.7 40.7 0 0 1-4.3-8A19.3 19.3 0 0 1 41 13l-2.1-1c-5.8 2.8-9.9 3.1-9.9 6.7s5.2 1.5 5.2 5.2-4 6.3-6.9 4.4-6.9-3-10.4 1.8-1.2 10.4 1.3 10.3 4.8-2.4 5.8.5 1.3 3 2.4 3.6 1.2 1.9.8 3.6S29 55 30.7 55s3.3-.7 3.5-3.5 2.3-2.9 3.3-3.7-.7-3.7 1.1-5.6 5.7-5.4 2.5-6.3-3-1.5-3.5-2.9-1.8-2.7.9-2.8z"
+    fill="#3db47b"></path>
+    <path data-name="layer1" d="M51 2a10 10 0 0 0-10 10v1c.7 8.8 10 19 10 19s1.3-1.4 2.9-3.6c3-4 7.1-10.6 7.1-16.4A10 10 0 0 0 51 2zm0 12a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm-6.7 8.5z"
+    fill="#f26161"></path>
+    <path data-name="opacity" d="M46.7 26.3l-.7.7a9.5 9.5 0 0 1-2.8 2 54.3 54.3 0 0 0 3.8 5s1.2-1.3 2.8-3.4c-.8-1-1.9-2.5-3.1-4.2z"
+    fill="#000032" opacity=".2"></path>
+    <path data-name="layer1" d="M41.5 15.6zm-.3-1.4zM40 12.4l-1-.4z"
+    fill="#f26161"></path>
+    <path data-name="opacity" d="M38.9 12l-1.6-.6a10.1 10.1 0 0 0-.3 1.4z"
+    fill="#000032" opacity=".2"></path>
+    <path data-name="layer1" d="M41.1 13c0 .4.1.8.1 1.2s-.1-.8-.1-1.2zm-1.1-.6l1.1.5zm6.7 13.9c-.8-1.2-1.6-2.4-2.3-3.8.7 1.4 1.5 2.6 2.3 3.8zM38.9 12zm3.4 6.3a23.1 23.1 0 0 1-.8-2.6 29.3 29.3 0 0 0 2.8 6.9 34.1 34.1 0 0 1-2-4.3zm-1.1-3.9l.3 1.2z"
+    fill="#f26161"></path>
+    <path data-name="opacity" d="M46.7 26.3c-.8-1.2-1.6-2.4-2.3-3.8a29.3 29.3 0 0 1-2.8-6.9l-.3-1.2v-.2c-.1-.4-.1-.8-.1-1.2l-1.2-.6-1-.4-1.8.8A10.1 10.1 0 0 0 37 14v1c.4 5 3.5 10.4 6.1 14.2a9.5 9.5 0 0 0 2.8-2z"
+    fill="#000032" opacity=".2"></path>
+    <path data-name="stroke" d="M53.9 28.4A26 26 0 1 1 41 13m-2.1-1c-5.8 2.8-9.9 3.1-9.9 6.7s5.2 1.5 5.2 5.2-4 6.3-6.9 4.4-6.9-3-10.4 1.8-1.2 10.4 1.3 10.3 4.8-2.4 5.9.6 1.3 3 2.4 3.6 1.2 1.9.8 3.6 1.8 6.9 3.5 6.9 3.3-.7 3.5-3.5 2.3-2.9 3.3-3.7-.7-3.7 1.1-5.6 5.7-5.4 2.5-6.3-3-1.5-3.5-2.9-1.8-2.8.9-2.9a10.3 10.3 0 0 0 7.4-3.1l.7-.7"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2"></path>
+    <path data-name="stroke" d="M51 2a10 10 0 0 0-10 10c0 9 10 20 10 20s10-11 10-20A10 10 0 0 0 51 2z"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2"></path>
+    <circle data-name="stroke" cx="51" cy="12" r="2" fill="none" stroke="#2e4369"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="screwdriver-1">
+    <title>Screwdriver</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#3f004a" stroke-linecap="round" stroke-miterlimit="10"
+    stroke-width="2" d="M36.651 31.653l15.675-15.675 5.245-.983L62 5l-2-2-10.243 4.18-1.029 5.292-15.629 15.629"
+    stroke-linejoin="round"></path>
+    <path data-name="layer1" d="M15.584 59.761L29.16 46.184a7.474 7.474 0 0 0 2.1-4.152l6.557-4.548a2.7 2.7 0 0 0 .438-4.229L31.5 26.5a2.7 2.7 0 0 0-4.229.438l-4.493 6.477a7.477 7.477 0 0 0-4.278 2.113L4.928 49.1a7.535 7.535 0 0 0 10.656 10.661z"
+    fill="none" stroke="#3f004a" stroke-linecap="round" stroke-miterlimit="10"
+    stroke-width="2" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="diploma-1">
+    <title>Diploma</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="none" stroke="#3f004a" stroke-miterlimit="10" stroke-width="2" d="M17.6 37.7L10 56.4l8.8-1.1 5.5 6.8 6.4-18.6m15.7-5.8L54 56.4l-8.8-1.1-5.4 6.8-6.5-18.6"
+    stroke-linejoin="round" stroke-linecap="round"></path>
+    <circle data-name="layer1" cx="32" cy="22.9" r="12" fill="none"
+    stroke="#3f004a" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+    stroke-linecap="round"></circle>
+    <path data-name="layer1" fill="none" stroke="#3f004a" stroke-miterlimit="10"
+    stroke-width="2" d="M32 4.5l4.5-2.6 3.1 4.2 5.1-.5 1.1 5 4.9 1.7-1 5 3.8 3.5-3 4.2 2.1 4.8-4.5 2.6v5.1l-5.2.6-2.1 4.7-4.9-1.5-3.9 3.4-3.9-3.4-4.9 1.5-2.1-4.7-5.2-.6v-5.1l-4.5-2.6 2.1-4.8-3-4.2 3.8-3.5-1-5 4.9-1.7 1.1-5 5.1.5 3.1-4.2L32 4.5z"
+    stroke-linejoin="round" stroke-linecap="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="healthcare-1">
+    <title>Healthcare</title>
+    <desc>A line styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M41 56h21V44a13.041 13.041 0 0 0-10-12.634V29.3c.2-.094.385-.2.572-.311h.009c2.381.989 7.259.037 9.32-1.9a.1.1 0 0 0-.022-.159A9.542 9.542 0 0 1 57 19c0-3.922-1.923-8.805-7.654-8.994A9.193 9.193 0 0 0 40 19.055c-.014 4.795-1.877 6.813-3.8 7.842a.1.1 0 0 0 .018.176c2.8.972 4.712 2.4 9.784 2.429v1.868a13.073 13.073 0 0 0-7.975 5.684M24.538 34.19A13.034 13.034 0 0 0 18 30.363v-1.312a8.822 8.822 0 0 0 4.038-4.4 17.308 17.308 0 0 0 .771-1.671c.064.006.126.019.192.019a1.994 1.994 0 0 0 .967-3.74c.826-3.617.927-7.734-.967-10.26-1.7-2.263-8.451-2.549-11 0-1 1-6-1-6 5a39.493 39.493 0 0 0 .336 5.122A2 2 0 0 0 7 23c.062 0 .121-.013.182-.018a5.674 5.674 0 0 0 .641 1.339l.015.017A8.92 8.92 0 0 0 12 29.043v1.322A13.041 13.041 0 0 0 2 43v13h19"
+    fill="none" stroke="#3f004a" stroke-linecap="round" stroke-miterlimit="10"
+    stroke-width="2" stroke-linejoin="round"></path>
+    <path data-name="layer1" d="M35.282 44.29a7.781 7.781 0 0 0 2.287-3.354A1.976 1.976 0 0 0 39 39a2.014 2.014 0 0 0-.961-1.734C37.835 33.192 35.886 30 31 30s-6.835 3.192-7.039 7.266A2.014 2.014 0 0 0 23 39a1.976 1.976 0 0 0 1.431 1.936 7.781 7.781 0 0 0 2.287 3.354A10.022 10.022 0 0 0 21 53.308V56h20v-2.692a10.022 10.022 0 0 0-5.718-9.018z"
+    fill="none" stroke="#3f004a" stroke-linecap="round" stroke-miterlimit="10"
+    stroke-width="2" stroke-linejoin="round"></path>
+  </symbol>
+</svg>
