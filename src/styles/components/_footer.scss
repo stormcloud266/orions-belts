@@ -1,17 +1,22 @@
 .Footer {
   background-image: linear-gradient(48deg, #0d0128, #1c053c,#270541, #330346, #2d0234);
+
   &__inner {
     display: flex;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    flex-direction: column;
   }
   &__social {
     flex: 1;
+    order: 2;
     color: $color-text-l-tertiary;
+
     div {
       display: flex;
       align-items: center;
+      justify-content: center;
     }
     svg {
       height: 20px;
@@ -24,15 +29,21 @@
       margin-top: 20px;
       font-weight: 300;
       color: darken($color-text-l-tertiary, 15%);
-      a {
-        color: $color-pink-l;
-      }
+      a { color: $color-pink-l; }
+      span { margin: 0 10px; }
     }
   }
 
   &__nav {
     display: flex;
     flex: 1;
+    order: 1;
+
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+
     p {
       color: $color-purple-l;
       font-weight: 400;
@@ -52,7 +63,27 @@
 
     }
   }
-  &__nav-section {
-    flex: 1;
+  &__nav-section { flex: 1; }
+
+  @include whenLarge {
+    .break {
+      display: inline-block;
+      font-size: 1.6rem;
+    }
+    &__inner {
+      flex-direction: row;
+      padding-bottom: 40px;
+
+    }
+    &__social {
+      order:1;
+      div { justify-content: flex-start; }
+    }
+    &__nav {
+      margin-bottom: 0;
+      width: auto;
+      max-width: auto;
+      text-align: left;
+    }
   }
 }

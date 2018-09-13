@@ -9,13 +9,12 @@ class Gallery extends React.Component {
   }
   componentWillUnmount() {
     window.removeEventListener('scroll', this.closeModal)
-
   }
 
   imagesArray = Object.keys(this.props.data).map(key => ( this.props.data[key] ));
 
   closeModal = () => {
-    const modalIsOpen = document.getElementById('modal').classList.contains('modal-opened')
+    const modalIsOpen = document.getElementById('modal').classList.contains('modal-opened');
     if (modalIsOpen) {
       document.getElementById('modal').classList.remove('modal-opened');
     }

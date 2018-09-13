@@ -8,15 +8,17 @@ class Footer extends React.Component {
       <footer className="Footer">
         <div className="Footer__inner wrapper">
           <div className="Footer__social">
-            <div>
+            <div className="Footer__icons">
               <p>Community</p>
-              <svg><use xlinkHref={`${Sprite}#instagram-1`}></use></svg>
-              <svg><use xlinkHref={`${Sprite}#twitter-1`}></use></svg>
-              <svg><use xlinkHref={`${Sprite}#tumblr-1`}></use></svg>
-              <svg><use xlinkHref={`${Sprite}#youtube-1`}></use></svg>
+              <div>
+                <svg><use xlinkHref={`${Sprite}#instagram-1`}></use></svg>
+                <svg><use xlinkHref={`${Sprite}#twitter-1`}></use></svg>
+                <svg><use xlinkHref={`${Sprite}#tumblr-1`}></use></svg>
+                <svg><use xlinkHref={`${Sprite}#youtube-1`}></use></svg>
+              </div>
             </div>
             <div className='copywrite'>
-              <p>Copywrite 2018 | Created by <a href="https://twitter.com/TA_Coding">TA_Coding</a></p>
+              <p>Copywrite 2018<span>|</span>Created by <a href="https://twitter.com/TA_Coding">TA_Coding</a></p>
             </div>
           </div>
 
