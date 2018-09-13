@@ -1,8 +1,31 @@
 import React from 'react';
+import Particles from 'react-particles-js';
 
 const Header = (props) => {
   return (
     <header className="Hero">
+      <Particles
+        // height='500'
+        style={{
+          width: '100%',
+          position: 'absolute',
+          top: 0,
+          bottom: 0,
+          left: 0,
+          right: 0
+        }}
+        params={{
+            		particles: {
+            			line_linked: {
+            				distance: 100,
+                    opacity: '.2'
+            			},
+                  size: {
+                    value: 2
+                  }
+            		}
+            	}}
+      />
       <nav className="Hero__nav wrapper">
         <a href="#x" className="Hero__logo">Orion's Belts</a>
 
