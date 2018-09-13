@@ -1,0 +1,50 @@
+.Gallery {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  position: relative;
+
+  #modal {
+    background: rgba(white, .8);
+    position: fixed;
+    top: 0; right: 0px; bottom: 0; left: 0px;
+    z-index: 100;
+    // display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .4s, transform 0s ease .3s;
+    opacity: 0;
+    transform: translate(9999px);
+    &.modal-opened {
+      opacity: 1;
+      transform: translate(0);
+      transition: opacity .4s, transform 0s ease 0s;
+    }
+    img {
+      width: 100%;
+      max-width: 800px;
+    }
+  }
+  &__title {
+    text-align: center;
+    color: $color-purple;
+  }
+  &__grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+     .gatsby-image-outer-wrapper {
+      max-height: 300px;
+      min-height: 200px;
+      // width: 100%;
+      max-width: 300px;
+    }
+    .gatsby-image-wrapper {
+     max-height: 300px;
+     min-height: 200px;
+     // width: 100%;
+     max-width: 300px;
+   }
+  }
+}
