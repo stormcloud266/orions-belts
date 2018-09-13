@@ -68,7 +68,7 @@
 
   }
   &__social-icons {
-    // transition: all .5s ease .8s;
+    transition: all .5s ease .8s;
     opacity: 0;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -97,8 +97,8 @@
   }
 
   &__toggle {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     display: block;
     cursor: pointer;
     position: absolute;
@@ -160,8 +160,8 @@
 
   .hamburger {
     background: $color-pink;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     margin-top: 20px;
     border-radius: 100%;
     display: flex;
@@ -195,7 +195,7 @@
   &__toggle:checked ~ .hamburger  {
     span:nth-last-child(3) {
       opacity: 1;
-      transform: rotate(45deg) translate( 0px, -6px) scaleX(1.2);
+      transform: rotate(45deg) translate( 0px, -6px) scaleX(1.15);
     }
 
     span:nth-last-child(2) {
@@ -203,7 +203,7 @@
       transform: rotate(0deg) scale(0.2, 0.2);
     }
     span:nth-last-child(1) {
-      transform: rotate(-45deg) translate(0px, 6px) scaleX(1.2);
+      transform: rotate(-45deg) translate(0px, 5px) scaleX(1.15);
     }
   }
 
