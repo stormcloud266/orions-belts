@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
-    url: 'https://www.orions-belt.netlify.com'
+    siteUrl: 'https://www.orions-belt.netlify.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    'gatsby-plugin-robots-txt',
+    // 'gatsby-plugin-robots-txt',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
