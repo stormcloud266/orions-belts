@@ -1,11 +1,10 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-
+import Nav from './Nav';
 const Header = (props) => {
   return (
-    <header className="Hero">
+    <header className="Hero" id="home">
       <Particles
-        // height='500'
         style={{
           width: '100%',
           position: 'absolute',
@@ -24,18 +23,7 @@ const Header = (props) => {
       		}
       	}}
       />
-      <nav className="Hero__nav wrapper">
-        <a href="#x" className="Hero__logo">Orion's Belts</a>
-
-        <ul>
-          <li><a href="#x">Home</a></li>
-          <li><a href="#x">About</a></li>
-          <li><a href="#x">Features</a></li>
-          <li><a href="#x">Gallery</a></li>
-          <li><a href="#x">Shop</a></li>
-        </ul>
-
-      </nav>
+      <Nav />
 
       <div className="Hero__text wrapper">
         <h1>Orion's Belts</h1>

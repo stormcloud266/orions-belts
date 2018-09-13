@@ -3,7 +3,7 @@ import Sprite from '../images/orion-svg-sprite.svg';
 
 const Features = (props) => {
   return (
-    <section className="Features">
+    <section className="Features" id="features">
       <div className="Features__inner wrapper">
         <div className="Features__container">
           <svg><use xlinkHref={`${Sprite}#screwdriver-1`}></use></svg>

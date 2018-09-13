@@ -1,5 +1,6 @@
 import React from 'react';
 import Sprite from '../images/orion-svg-sprite.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 class Footer extends React.Component {
@@ -26,10 +27,10 @@ class Footer extends React.Component {
             <div className="Footer__nav-section">
               <p className="Footer__nav-title">Navigation</p>
               <ul>
-                <li><a href="#x">Home</a></li>
-                <li><a href="#x">About</a></li>
-                <li><a href="#x">Features</a></li>
-                <li><a href="#x">Gallery</a></li>
+                <li><AnchorLink href="#home">Home</AnchorLink></li>
+                <li><AnchorLink href="#about" offset="50">About</AnchorLink></li>
+                <li><AnchorLink href="#features">Features</AnchorLink></li>
+                <li><AnchorLink href="#gallery" offset="50">Gallery</AnchorLink></li>
               </ul>
             </div>
 

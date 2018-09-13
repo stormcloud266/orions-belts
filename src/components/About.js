@@ -3,7 +3,7 @@ import Sprite from '../images/orion-svg-sprite.svg';
 
 const About = (props) => {
   return (
-    <section className="About wrapper">
+    <section className="About wrapper" id="about">
       <div className="About__text">
         <h2 className="About__title">They Are out of This World</h2>
         <p className="About__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ducimus enim corporis eos vero culpa cupiditate, quis earum quod, rem ratione voluptas consequuntur incidunt, consequatur ipsum soluta necessitatibus obcaecati.</p>

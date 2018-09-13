@@ -15,32 +15,6 @@
 
   a { color: $color-text-l-secondary; }
 
-  &__nav {
-    position: absolute;
-    top: 0; right: 0; left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    ul { display: flex; }
-    li {
-      margin-left: 40px;
-      a {
-        font-size: 18px;
-        transition: all .3s;
-        &:hover {
-          color: $color-pink-l;
-        }
-      }
-    }
-
-  }
-  &__logo {
-    font-size: 22px;
-    font-family: $font-serif;
-    line-height: 1;
-  }
-
   &__text {
     max-width: 600px;
     text-align: center;
