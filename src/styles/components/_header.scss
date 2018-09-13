@@ -1,9 +1,9 @@
 .Hero {
-  background-image: linear-gradient(to right top, #0d0128, #1c053c, #270541, #330346, #2d0234);
+  background-image: linear-gradient(to right top, #0d0128, #1c053c,#270541, #330346, #2d0234);
   background-size: 300% 300%;
   animation: movingGradient 20s ease infinite;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   position: relative;
 
   min-height: 600px;
@@ -47,12 +47,14 @@
     a {
       background: $color-bg;
       color: $color-purple;
-      padding: 15px 25px;
+      padding: 10px 25px;
       border-radius: 40px;
       display: inline-block;
       margin-top: 40px;
       transition: all .3s;
       font-weight: 400;
+      position: relative;
+      z-index: 3;
       &:hover { background: $color-purple-l; }
     }
   }

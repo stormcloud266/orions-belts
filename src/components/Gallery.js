@@ -33,7 +33,7 @@ class Gallery extends React.Component {
         <div className="Gallery__grid-container wrapper">
         {
           this.imagesArray.map((image, ind) => (
-            <div onClick={(e) => this.openModal(e.target.src)}>
+            <div onClick={(e) => this.openModal(e.target.src)} className="Gallery__image">
               <Img sizes={image.childImageSharp.sizes}/>
             </div>
           ))
