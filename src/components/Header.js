@@ -17,7 +17,8 @@ const Header = (props) => {
         params={{
             		particles: {
             			line_linked: {
-            				distance: 130
+            				distance: 100,
+                    opacity: '.2'
             			},
                   size: {
                     value: 2

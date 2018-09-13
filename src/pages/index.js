@@ -15,7 +15,6 @@ const IndexPage = ({ data }) => (
     <Features />
     <Newsletter />
     <Gallery data={data} />
-    {console.log(data)}
   </Layout>
 )
 
