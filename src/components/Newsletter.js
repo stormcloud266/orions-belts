@@ -10,7 +10,7 @@ const Newsletter = (props) => {
         </div>
         <div className="Newsletter__form">
           <input type="text" placeholder='Email'/>
-          <button>Join</button>
+          <button>Sign Up</button>
         </div>
       </div>
     </section>

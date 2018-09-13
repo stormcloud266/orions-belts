@@ -1,0 +1,58 @@
+.Footer {
+  background-image: linear-gradient(48deg, #0d0128, #1c053c,#270541, #330346, #2d0234);
+  &__inner {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  &__social {
+    flex: 1;
+    color: $color-text-l-tertiary;
+    div {
+      display: flex;
+      align-items: center;
+    }
+    svg {
+      height: 20px;
+      width: 20px;
+      margin-left: 20px;
+      margin-top: 2px;
+    }
+    .copywrite {
+      font-size: 1.6rem;
+      margin-top: 20px;
+      font-weight: 300;
+      color: darken($color-text-l-tertiary, 15%);
+      a {
+        color: $color-pink-l;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex: 1;
+    p {
+      color: $color-purple-l;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: $color-text-l-tertiary;
+      font-weight: 300;
+      font-size: 1.6rem;
+      transition: all .3s;
+      &:hover {
+        color: $color-pink-l;
+      }
+
+    }
+  }
+  &__nav-section {
+    flex: 1;
+  }
+}

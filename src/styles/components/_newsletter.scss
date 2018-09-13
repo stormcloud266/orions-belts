@@ -27,9 +27,10 @@
       padding: 10px;
       border: none;
       border-bottom: 3px solid rgba(0,0,0,.0);
+      border-top: 3px solid rgba(0,0,0,.0);
       outline: none;
       &:focus, &:active {
-        border-bottom: 3px solid orange;
+        border-bottom: 3px solid $color-pink;
       }
     }
     input {
@@ -39,9 +40,14 @@
     }
     button {
       width: 33.333%;
-      background: #120236;
-      color: $color-text-l-primary;
+      background: $color-pink;
       cursor: pointer;
+      transition: all .3s;
+      color: white;
+      font-weight: 300;
+      &:hover {
+        background: $color-pink-l;
+      }
     }
   }
 

@@ -7,6 +7,7 @@ import About from '../components/About'
 import Features from '../components/Features'
 import Newsletter from '../components/Newsletter'
 import Gallery from '../components/Gallery'
+import Footer from '../components/Footer'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = ({ data }) => (
     <Features />
     <Newsletter />
     <Gallery data={data} />
+    <Footer />
   </Layout>
 )
 

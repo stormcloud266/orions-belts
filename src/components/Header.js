@@ -15,16 +15,14 @@ const Header = (props) => {
           right: 0
         }}
         params={{
-            		particles: {
-            			line_linked: {
-            				distance: 100,
-                    opacity: '.2'
-            			},
-                  size: {
-                    value: 2
-                  }
-            		}
-            	}}
+      		particles: {
+      			line_linked: {
+      				distance: 100,
+              opacity: '.2'
+      			},
+            size: { value: 2 }
+      		}
+      	}}
       />
       <nav className="Hero__nav wrapper">
         <a href="#x" className="Hero__logo">Orion's Belts</a>
@@ -32,7 +30,8 @@ const Header = (props) => {
         <ul>
           <li><a href="#x">Home</a></li>
           <li><a href="#x">About</a></li>
-          <li><a href="#x">Testimonials</a></li>
+          <li><a href="#x">Features</a></li>
+          <li><a href="#x">Gallery</a></li>
           <li><a href="#x">Shop</a></li>
         </ul>
 

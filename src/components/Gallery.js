@@ -5,18 +5,22 @@ import Img from "gatsby-image"
 
 class Gallery extends React.Component {
   componentDidMount() {
-    window.addEventListener('scroll', () => {
-      this.closeModal()
-    })
+    window.addEventListener('scroll', this.closeModal)
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.closeModal)
+
   }
 
   imagesArray = Object.keys(this.props.data).map(key => ( this.props.data[key] ));
 
   closeModal = () => {
-    document.getElementById('modal').classList.remove('modal-opened');
+    const modalIsOpen = document.getElementById('modal').classList.contains('modal-opened')
+    if (modalIsOpen) {
+      document.getElementById('modal').classList.remove('modal-opened');
+    }
   }
   openModal = (src) => {
-    console.log(src);
     document.getElementById('modal-img').src = src
     document.getElementById('modal').classList.add('modal-opened')
   }
@@ -33,7 +37,7 @@ class Gallery extends React.Component {
         <div className="Gallery__grid-container wrapper">
         {
           this.imagesArray.map((image, ind) => (
-            <div onClick={(e) => this.openModal(e.target.src)} className="Gallery__image">
+            <div onClick={(e) => this.openModal(e.target.src)} className="Gallery__image" key={ind}>
               <Img sizes={image.childImageSharp.sizes}/>
             </div>
           ))
