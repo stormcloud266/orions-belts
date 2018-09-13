@@ -9,11 +9,13 @@
     top: 0; right: 0px; bottom: 0; left: 0px;
     z-index: 100;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: opacity .4s, transform 0s ease .3s;
     opacity: 0;
     transform: translate(9999px);
+    padding: 0 20px;
     &.modal-opened {
       opacity: 1;
       transform: translate(0);
@@ -22,6 +24,15 @@
     img {
       width: 100%;
       max-width: 800px;
+    }
+    p {
+      font-size: 2.4rem;
+      font-family: $font-serif;
+      color: $color-text-d-secondary;
+      cursor: pointer;
+      transition: all .3s;
+      margin-top: 40px;
+      &:hover { color: $color-text-d-primary; }
     }
   }
   &__title {
@@ -57,22 +68,16 @@
     }
   }
   @include whenMedium {
-    background: darkred;
     margin-top: 140px;
     margin-bottom: 140px;
 
-    &__grid-container {
-      grid-template-columns: repeat(3, 1fr);
-    }
+    &__grid-container { grid-template-columns: repeat(3, 1fr); }
   }
 
   @include whenLarge {
-    background: darkgreen;
     margin-top: 180px;
     margin-bottom: 180px;
 
-    &__grid-container {
-      grid-template-columns: repeat(4, 1fr);
-    }
+    &__grid-container { grid-template-columns: repeat(4, 1fr); }
   }
 }
