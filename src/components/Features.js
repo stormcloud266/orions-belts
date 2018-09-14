@@ -1,10 +1,12 @@
 import React from 'react';
 import Sprite from '../images/orion-svg-sprite.svg';
+import beltImg from '../images/belt.jpg';
 
 const Features = (props) => {
   return (
     <section className="Features" id="features">
       <div className="Features__inner wrapper">
+        <div className="Features__text-container">
         <div className="Features__container">
           <svg><use xlinkHref={`${Sprite}#screwdriver-1`}></use></svg>
           <div className="Features__text">
@@ -25,6 +27,10 @@ const Features = (props) => {
             <p className="Features__title">Custom Sizes</p>
             <p className="Features__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, at, saepe.</p>
           </div>
+        </div>
+      </div>
+        <div className="Features__image-container">
+          <img src={beltImg} alt="" className="Features__image"/>
         </div>
       </div>
     </section>
