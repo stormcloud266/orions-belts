@@ -8,8 +8,8 @@ const Features = (props) => {
         <div className="Features__container">
           <svg><use xlinkHref={`${Sprite}#screwdriver-1`}></use></svg>
           <div className="Features__text">
-            <p className="Features__title">Tailor Crafted</p>
-            <p className="Features__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, odit?</p>
+            <p className="Features__title">Taylor Crafted</p>
+            <p className="Features__body">Literally. Taylor makes all our belts.</p>
           </div>
         </div>
         <div className="Features__container">

@@ -154,7 +154,7 @@
     padding: 1.6rem;
     width: 100%;
     text-align: center;
-    color: lighten($color-pink-l, 10%);
+    color: $color-text-l-primary;
     &:hover {
       color: $color-pink;
     }
