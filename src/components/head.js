@@ -5,20 +5,15 @@ const Head = ({ data }) => (
   <Helmet
     title={data.site.siteMetadata.title}
     meta={[
-      { name: 'description', content: 'Sample' },
+      { name: 'description', content: 'Belts that are out of this world.' },
       { name:"twitter:card", content: "summary" },
-      { name:"twitter:site", content: "@username" },
-      { name: "twitter:title", content: "title"},
-      { name:"twitter:description", content:"description"},
+      { name:"twitter:site", content: "@TA_coding" },
+      { name: "twitter:title", content: "Orion's Belts"},
+      { name:"twitter:description", content:"Belts that are out of this world."},
       { name:"twitter:image", content: "img.com" },
-      { name:"twitter:image:alt", content: "alt" },
+      { name:"twitter:image:alt", content: "Orion's Logo" },
     ]}
   >
-    <script type="application/ld+json">
-      {`
-        "@context": "http://schema.org"
-      `}
-    </script>
     <html lang="en" />
   </Helmet>
 )

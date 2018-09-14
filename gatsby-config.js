@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Orion\'s Belts',
     siteUrl: 'https://www.orions-belt.netlify.com'
   },
   plugins: [
@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Orion\'s Belts',
+        short_name: 'Orion\'s Belts',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui'
-        // icon: '', // This path is relative to the root of the site.
+        background_color: '#210626',
+        theme_color: '#210626',
+        display: 'minimal-ui',
+        icon: 'src/images/favicon.png'
       },
     },
     {
@@ -38,7 +38,7 @@ module.exports = {
     },
     { resolve: 'gatsby-plugin-sitemap' },
     { resolve: 'gatsby-plugin-no-sourcemaps' },
-    'gatsby-plugin-offline'
-    // 'gatsby-plugin-netlify'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify'
   ],
 }
