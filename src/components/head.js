@@ -10,7 +10,7 @@ const Head = ({ data }) => (
       { name:"twitter:site", content: "@TA_coding" },
       { name: "twitter:title", content: "Orion's Belts"},
       { name:"twitter:description", content:"Belts that are out of this world."},
-      { name:"twitter:image", content: "img.com" },
+      { name:"twitter:image", content: "https://orions-belts.netlify.com/pfp.png" },
       { name:"twitter:image:alt", content: "Orion's Logo" },
     ]}
   >
