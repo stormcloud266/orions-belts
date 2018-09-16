@@ -30,7 +30,7 @@ fragment gridImage on File {
       maxHeight: 700
       traceSVG: { color: "#beaade" }
     ) {
-      ...GatsbyImageSharpSizes_tracedSVG
+      ...GatsbyImageSharpSizes_withWebp_tracedSVG
     }
   }
 }
