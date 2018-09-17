@@ -29,7 +29,7 @@ class Gallery extends React.Component {
     return (
       <section className="Gallery" id="gallery">
         <div id="modal" className='' onClick={this.closeModal}>
-          <img id="modal-img" src={this.props.data.image1.childImageSharp.sizes.src} alt=""/>
+          <img id="modal-img" src='' alt=""/>
           <p>Close</p>
         </div>
         <h2 className="Gallery__title">Gallery</h2>
