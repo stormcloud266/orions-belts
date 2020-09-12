@@ -15,8 +15,9 @@ class Gallery extends React.Component {
 
   closeModal = () => {
     const modalIsOpen = document.getElementById('modal').classList.contains('modal-opened');
-    if (modalIsOpen) {
+    if (modalIsOpen) {    
       document.getElementById('modal').classList.remove('modal-opened');
+      document.getElementById('modal-img').src = ''
     }
   }
   openModal = (src) => {

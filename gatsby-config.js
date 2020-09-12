@@ -6,7 +6,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    'gatsby-plugin-robots-txt',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -39,6 +38,5 @@ module.exports = {
     { resolve: 'gatsby-plugin-sitemap' },
     { resolve: 'gatsby-plugin-no-sourcemaps' },
     'gatsby-plugin-offline',
-    'gatsby-plugin-netlify'
   ],
 }
