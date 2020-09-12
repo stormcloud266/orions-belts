@@ -3,7 +3,7 @@
 
 [View Website](https://orions-belts.netlify.app/)
 
-![](https://github.com/stormcloud266/orions-belts/blob/master/screenshot.gif)
+![](https://github.com/stormcloud266/orions-belts/blob/master/screenshot1.gif)
 
 ## Challenges and Goals
 My main goal with this website was to build a custom gallery component filled with lazy loaded, svg traced images.
