@@ -1,5 +1,5 @@
 # Orion's Belts
- A one page, mock small business website developed to practice layout design and speedy image loading. It features multiple navigation menus with smooth scrolling, and a custom built modal that dynamically changes when a gallery image is clicked.
+ A one page, concept small business website developed to practice layout design and speedy image loading. It features multiple navigation menus with smooth scrolling, and a custom built modal that dynamically changes when a gallery image is clicked.
 
 [View Website](https://orions-belts.netlify.app/)
 
